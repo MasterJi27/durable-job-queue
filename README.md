@@ -16,9 +16,7 @@ A production-grade Go job queue backed by PostgreSQL, engineered with expiring l
 
 Watch the complete operations console in action — covering real-time queue telemetry, job submission presets, worker execution tracking, deep inspection with fencing tokens, and deterministic chaos simulation:
 
-<p align="center">
-  <video src="https://github.com/MasterJi27/durable-job-queue/raw/main/media/recordings/durable_job_queue_demo.mp4" width="100%" controls autoplay loop muted playsinline></video>
-</p>
+https://github.com/user-attachments/assets/e015a34a-ef30-4ea4-8f0a-747ab6caffb0
 
 * **Direct Video File (MP4):** [`media/recordings/durable_job_queue_demo.mp4`](media/recordings/durable_job_queue_demo.mp4) *(42s, H.264, 882 KB)*
 * **Asset Specifications:** See [`media/README.md`](media/README.md) for full video resolutions, screenshot gallery, and reproduction scripts.

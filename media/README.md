@@ -6,12 +6,15 @@ This directory contains high-resolution screenshots, video walkthroughs, and ani
 
 ## 🎬 Video Recordings
 
+<p align="center">
+  <video src="https://github.com/MasterJi27/durable-job-queue/raw/main/media/recordings/durable_job_queue_demo.mp4" width="100%" controls autoplay loop muted playsinline></video>
+</p>
+
 All video assets are pre-rendered and optimized for different publication channels:
 
 | Asset | Format | Resolution | Size | Best For | Link |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **`durable_job_queue_demo.mp4`** | H.264 / MP4 | 1360 × 850 | ~882 KB | **LinkedIn video posts**, Twitter/X, GitHub release attachments | [View / Download](recordings/durable_job_queue_demo.mp4) |
-| **`durable_job_queue_demo.gif`** | Animated GIF | 1080 × 675 | ~3.8 MB | **GitHub README embedding** (inline markdown preview) | [View / Download](recordings/durable_job_queue_demo.gif) |
+| **`durable_job_queue_demo.mp4`** | H.264 / MP4 | 1360 × 850 | ~882 KB | **Native video player**, **LinkedIn video posts**, Twitter/X | [View / Download](recordings/durable_job_queue_demo.mp4) |
 | **`durable_queue_demo.webm`** | WebM / VP8 | 1360 × 850 | ~2.4 MB | High-fidelity master recording | [View / Download](recordings/durable_queue_demo.webm) |
 
 ### Video Walkthrough Highlights (42 seconds)

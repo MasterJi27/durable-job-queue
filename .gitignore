@@ -1,0 +1,15 @@
+/bin/
+/dq
+*.test
+.env
+.env.*
+!.env.example
+*.log
+*.out
+!docs/validation/*.out
+!docs/validation/*.log
+coverage.html
+.DS_Store
+.venv-docs/
+__pycache__/
+*.candidate.pdf

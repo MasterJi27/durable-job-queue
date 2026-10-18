@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "job_id": "2e8df61634b1a703ce17193eb43b488a",
+  "checks": [
+    "live API enqueue",
+    "idempotent replay",
+    "conflicting payload returns 409",
+    "worker result inspection",
+    "overview counts",
+    "isolated simulation accounting"
+  ]
+}

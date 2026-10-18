@@ -1,0 +1,44 @@
+services:
+  postgres:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_USER: queue
+      POSTGRES_PASSWORD: queue
+      POSTGRES_DB: queue
+    ports:
+      - "127.0.0.1:55432:5432"
+    volumes:
+      - queue-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U queue -d queue"]
+      interval: 2s
+      timeout: 3s
+      retries: 20
+  migrate:
+    build: .
+    command: ["migrate"]
+    environment:
+      DATABASE_URL: postgres://queue:queue@postgres:5432/queue?sslmode=disable
+    depends_on:
+      postgres:
+        condition: service_healthy
+  api:
+    build: .
+    command: ["serve", "-addr", "0.0.0.0:8080"]
+    environment:
+      DATABASE_URL: postgres://queue:queue@postgres:5432/queue?sslmode=disable
+    ports:
+      - "127.0.0.1:8080:8080"
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+  worker:
+    build: .
+    command: ["worker", "-concurrency", "4"]
+    environment:
+      DATABASE_URL: postgres://queue:queue@postgres:5432/queue?sslmode=disable
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+volumes:
+  queue-data:

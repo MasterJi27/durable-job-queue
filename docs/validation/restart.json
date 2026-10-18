@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "jobs_retained": 3,
+  "results_retained": 2,
+  "check": "All persisted job and result columns match before/after PostgreSQL container restart"
+}

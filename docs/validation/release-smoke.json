@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "queue": "smoke-3b797be280c7",
+  "checks": [
+    "producer deduplication",
+    "retry then success",
+    "dead-letter retention",
+    "SIGKILL recovery",
+    "lease fencing version advances",
+    "one result per success"
+  ]
+}

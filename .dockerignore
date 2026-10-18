@@ -1,0 +1,9 @@
+.git
+.env
+bin
+*.log
+*.out
+docs/validation
+.venv-docs
+__pycache__
+docs/*.pdf

@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "job_id": "e1e224a53bad15923a652dea204478de",
+  "checks": [
+    "Docker image built",
+    "Compose migration startup ordering",
+    "database readiness endpoint",
+    "HTTP enqueue",
+    "HTTP idempotency replay",
+    "HTTP conflicting payload returns 409",
+    "container worker retries then commits once"
+  ],
+  "final_job": {
+    "id": "e1e224a53bad15923a652dea204478de",
+    "queue": "default",
+    "kind": "echo",
+    "idempotency_key": "docker-verification-001",
+    "payload": {
+      "message": "docker verified",
+      "demo_fail_until": 1
+    },
+    "status": "succeeded",
+    "attempts": 2,
+    "max_attempts": 5,
+    "lease_version": 2,
+    "owner": "58ab39c98e04196c15e73616dc957dc2/2",
+    "available_at": "2026-10-18T09:24:47.708759Z",
+    "lease_until": "0001-01-01T00:00:00Z",
+    "created_at": "2026-10-18T09:24:46.687572Z",
+    "updated_at": "2026-10-18T09:24:47.732261Z",
+    "last_error": "demonstration failure on attempt 1"
+  }
+}

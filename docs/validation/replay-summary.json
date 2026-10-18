@@ -1,0 +1,15 @@
+{
+  "seed": 42,
+  "steps": 1000,
+  "accepted": 30,
+  "succeeded": 27,
+  "dead": 3,
+  "claims": 75,
+  "crashes": 16,
+  "clock_jumps": 110,
+  "duplicate_enqueues": 102,
+  "duplicate_deliveries": 105,
+  "lost_acknowledgements": 8,
+  "stale_rejections": 75,
+  "invariant_checks": 1001
+}

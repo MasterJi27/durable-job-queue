@@ -1,0 +1,2 @@
+# Optional: only needed to regenerate the PDF handbook, not to run the queue.
+reportlab>=4,<5

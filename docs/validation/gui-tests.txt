@@ -1,0 +1,7 @@
+?   	durablequeue/cmd/dq	[no test files]
+ok  	durablequeue/internal/httpapi	1.501s
+?   	durablequeue/internal/queuetest	[no test files]
+ok  	durablequeue/queue	2.836s
+ok  	durablequeue/queue/memory	1.431s
+ok  	durablequeue/queue/postgres	2.149s
+ok  	durablequeue/simulation	18.280s

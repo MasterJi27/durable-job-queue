@@ -1,0 +1,7 @@
+	durablequeue/cmd/dq		coverage: 0.0% of statements
+ok  	durablequeue/internal/httpapi	1.832s	coverage: 83.8% of statements
+	durablequeue/internal/queuetest		coverage: 0.0% of statements
+ok  	durablequeue/queue	2.999s	coverage: 73.6% of statements
+ok  	durablequeue/queue/memory	1.601s	coverage: 80.1% of statements
+ok  	durablequeue/queue/postgres	4.604s	coverage: 67.2% of statements
+ok  	durablequeue/simulation	63.607s	coverage: 83.2% of statements
